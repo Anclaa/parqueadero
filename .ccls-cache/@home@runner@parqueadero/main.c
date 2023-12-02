@@ -1,6 +1,7 @@
 #include <stdio.h> 
 #include <math.h>
 
+
 int cant_p = 0;
 char placa[10][10];
 char modelo[10][5];
