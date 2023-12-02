@@ -12,7 +12,6 @@ void agregarAuto() {
         printf("El inventario está lleno\n");
         return;
     }
-
     printf("Ingrese la placa: ");
     scanf("%s", &placa[cant_p]);
 
@@ -21,11 +20,7 @@ void agregarAuto() {
 
     printf("Ingrese el color: ");
     scanf("%s", &colores[cant_p]);
-
-
-
     cant_p++;
-
     printf("Auto agregado agregado con éxito\n");
 }
 
